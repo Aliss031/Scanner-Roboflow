@@ -287,7 +287,6 @@ $(function () {
             });
         });
     };
-
     const detectFrame = function () {
         if (!workerId) return requestAnimationFrame(detectFrame);
 
