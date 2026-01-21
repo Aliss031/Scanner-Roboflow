@@ -17,6 +17,7 @@
         crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/inferencejs@1.2.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5.0.4/dist/tesseract.min.js"></script>
 
     <link rel="stylesheet" href="./main.css">
     <script src="./main.js"></script>
@@ -25,6 +26,10 @@
 <body class="loading">
     <video id="video" autoplay muted playsinline></video>
     <div id="fps"></div>
+    <div id="extracted-text">
+        <h3>Extracted Text:</h3>
+        <div id="text-results"></div>
+    </div>
 </body>
 
 </html>
